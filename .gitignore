@@ -1,0 +1,89 @@
+.env
+data
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.tox/
+.nox/
+.pytype/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --------------------
+# PyCharm / JetBrains
+# --------------------
+.idea/
+*.iml
+
+# --------------------
+# OS junk (Windows / macOS / Linux)
+# --------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# --------------------
+# Project-specific
+# --------------------
+# Env files / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Chroma persistence / local data
+data/
+chroma/
+**/chroma_db/
+**/chroma_store/
+**/data/chroma/
+
+# KB content: choose ONE strategy
+# If KB is local-only, ignore it:
+# kb/
+# If KB should be committed, leave it tracked and only ignore generated stuff.
+
+# Model caches (optional; huge)
+# HuggingFace / Transformers cache
+.huggingface/
+.hf_cache/
+cache/
+# If you want to ignore default HF cache locations, do it via env instead.

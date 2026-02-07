@@ -1,0 +1,3 @@
+my line manager is Pavel
+Pavel's line manager is Criss
+Criss's line manager is Frederic
